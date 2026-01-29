@@ -573,17 +573,19 @@
         <!-- ИКОНКИ ПОД НАДПИСЬЮ -->
         <div class="social-icons">
 
-          <a href="https://t.me/karmanova_makeup" target="_blank">
-            <img src="bilder/telegram.png" alt="Telegram">
-          </a>
+          <a href="tg://resolve?domain=karmanova_makeup" target="_blank">
+              <img src="bilder/telegram.png" alt="Telegram">
+          </a> 
+
 
           <a href="https://vk.com/karmanova_5 " target="_blank">
             <img src="bilder/vk.png" alt="VK">
           </a>
         </div>
 
-        <p><strong data-i18n="phoneLabel">Мой номер телефона: +7 969 169 96 46 </strong></p>
-
+        <p><strong data-i18n="phoneLabel">Мой номер телефона: </strong>
+         <a href="tel:+79691699646">+7 969 169 96 46</a>
+        </p>
         <p><strong>Email:</strong> <a href="mailto:karma.y_05@mail.ru">karma.y_05@mail.ru</a></p>
  
         <div class="right contact-address">
@@ -908,13 +910,13 @@ const translations = {
       });
       const htmlBlock = document.querySelector('[data-i18n-html]');
       if(lang==='de'){
-        htmlBlock.innerHTML = `Ich bin Visagistin mit zwei Jahren Erfahrung. In dieser Zeit habe ich mehr als 100 Make-ups erstellt und mit verschiedenen Hauttypen gearbeitet.<br><br>
+        htmlBlock.innerHTML = `Ich bin Visagistin mit zwei Jahren Erfahrung. In dieser Zeit habe ich mehr als 100 Make-ups erstellt und mit verschiedenen Hauttypen gearbeitet.
         Ich erstelle Make-ups für Fotoshootings, Hochzeiten, Abendveranstaltungen und den Alltag.<br><br>
         Dank meiner Erfahrung kann ich für Sie ein komplettes Styling in 1,5–2 Stunden (Make-up + Styling) erstellen.<br><br>
         In meiner Arbeit lege ich Wert auf Individualität — es ist mir wichtig, die natürliche Schönheit zu betonen, nicht zu verbergen.<br><br>
         Mein Ziel ist, dass sich jede Frau mit dem Make-up, das wir gemeinsam kreieren, selbstbewusst, harmonisch und leicht fühlt.`;
       } else {
-        htmlBlock.innerHTML = `Я — визажист с двухлетним опытом работы. За это время, я успела создать больше 100 макияжей и поработать с разными типами кожи и внешности,<br><br>
+        htmlBlock.innerHTML = `Я — визажист с двухлетним опытом работы. За это время, я успела создать больше 100 макияжей и поработать с разными типами кожи и внешности,
           создать макияж для фотосессий, свадеб, вечерних выходов и повседневных образов.<br><br>
           Благодаря своему опыту, я могу создать для вас полный образ за 1.5–2 часа (макияж + укладка).<br><br>
           В своей работе я делаю акцент на индивидуальности — для меня важно подчеркнуть естественную красоту, а не скрыть её.<br><br>
@@ -1043,5 +1045,6 @@ document.addEventListener('DOMContentLoaded', function() {
   </script>
 </body>
 </html>
+
 
 

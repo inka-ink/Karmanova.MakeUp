@@ -1,22 +1,36 @@
-Kurzbeschreibung
+Karmanova MakeUp Website
 
-Dies ist meine eigene, selbst entwickelte Website für eine Visagistin in Rostow am Don. Die Website zeigt Portfolio, Dienstleistungen und Kontaktmöglichkeiten.
-Sie ist vollständig responsive und mehrsprachig (RU/DE/EN). Dies war kein Schul- oder Übungsprojekt, sondern eine eigenständige Arbeit.
+*** Projektübersicht
+Dies ist eine selbst entwickelte Website für eine Visagistin in Rostow am Don mit dem Ziel, neue Kunden zu gewinnen und Dienstleistungen professionell zu präsentieren.
 
-Technologien
-HTML5 & CSS3 (Flexbox & Grid) – Layout & Design
-JavaScript – mobiles Menü, Sprachenumschaltung, Animationen
-Google Fonts – Montserrat & Pacifico
-Modale Fenster – Datenschutz, Nutzungsbedingungen, Impressum
-Features
-Desktop- & Mobile-Hero-Bereich
-Portfolio- und Dienstleistungskarten mit sanftem Fade-In
-Social-Media-Buttons & "Nach oben"-Pfeil
-Buchungslinks für Telegram & VK
-SEO-freundliche Meta-Tags
-Meine Aufgaben
-Website komplett selbst konzipiert und umgesetzt
-Mehrsprachige Funktionalität implementiert
-Mobiles Menü mit Burger-Icon & Animationen
-Interaktive Karten für Dienstleistungen & Portfolio
-Modale Fenster für rechtliche Seiten umgesetzt
+Die Website kombiniert modernes Design, Benutzerfreundlichkeit und klare Call-to-Actions.
+
++*** Features
+- Vollständig responsive (Desktop, Tablet, Mobile)
+- Mehrsprachig (RU / DE / EN)
+- Portfolio- und Dienstleistungsbereiche
+- Buchungsmöglichkeiten über Telegram & VK
+- Sanfte Animationen und moderne UI
+- SEO-optimierte Struktur
+
+*** Technologien
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript
+- Google Fonts (Montserrat, Pacifico)
+
+*** Meine Rolle
+- Konzeption und Design der Website
+- Komplette Frontend-Entwicklung
+- Implementierung der Mehrsprachigkeit
+- Erstellung interaktiver UI-Elemente
+- Umsetzung von modalen Fenstern (Impressum, Datenschutz)
+
+***Ziel des Projekts
+Erstellung einer Website, die nicht nur als Portfolio dient, sondern aktiv zur Kundengewinnung beiträgt.
+
+***Live Demo
+👉 https://inka-ink.github.io/Karmanova.MakeUp/
+
+
+

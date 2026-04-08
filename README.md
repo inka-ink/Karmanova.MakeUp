@@ -5,7 +5,7 @@ Dies ist eine selbst entwickelte Website für eine Visagistin in Rostow am Don m
 
 Die Website kombiniert modernes Design, Benutzerfreundlichkeit und klare Call-to-Actions.
 
-+*** Features
+*** Features
 - Vollständig responsive (Desktop, Tablet, Mobile)
 - Mehrsprachig (RU / DE / EN)
 - Portfolio- und Dienstleistungsbereiche
@@ -26,10 +26,10 @@ Die Website kombiniert modernes Design, Benutzerfreundlichkeit und klare Call-to
 - Erstellung interaktiver UI-Elemente
 - Umsetzung von modalen Fenstern (Impressum, Datenschutz)
 
-***Ziel des Projekts
+*** Ziel des Projekts
 Erstellung einer Website, die nicht nur als Portfolio dient, sondern aktiv zur Kundengewinnung beiträgt.
 
-***Live Demo
+*** Live Demo
 👉 https://inka-ink.github.io/Karmanova.MakeUp/
 
 

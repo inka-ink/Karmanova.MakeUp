@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Профессиональный визажист в Ростове-на-Дону. Свадебный и вечерний макияж, выезд на дом.">
+    <meta name="description" content="Профессиональный визажист в Ростове-на-Дону и Донецке. Свадебный, вечерний и повседневный макияж, красивые укладки и выезд на дом. Запись на макияж у Кармановой Юлии.">
   <meta name="yandex-verification" content="1d18ca07c3000fb4" />
-  <title>Визажист,Укладка в Ростов-на-Дону. Карманова Юлия-Свадебный макияж  </title>
+  <title>Визажист Ростов-на-Дону и Донецк | Свадебный макияж и укладки — Карманова Юлия </title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
   <style>
     :root{
@@ -64,6 +64,29 @@
   margin-bottom: 10px;
   font-family: serif;
 }
+.btn-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 32px;
+      border-radius: 30px;
+      border: 0;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 16px;
+      text-decoration: none;
+      background: var(--burgundy);
+      color: black;
+      background: #59242a;
+      box-shadow: 0 8px 24px rgba(114, 47, 55, 0.25);
+      transition: all 0.3s ease;
+    }
+
+    .btn-cta:hover {
+      background: #59242a;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(114, 47, 55, 0.35);
+    }
 
 .hero-content .name {
   font-size: 40px;
@@ -432,11 +455,14 @@
     </div>
 
     <div class="hero-content">
-      <h1 class="title" data-i18n="heroTitle">Визажист,Стилист-Укладка. </h1>
+      <h1 class="title" data-i18n="heroTitle">Визажист,Стилист-Укладка.</h1>
+            <h3 class="title" data-i18n="">В Ростове-на-Дону и Донецке</h3>
+
 <h2 class="name" data-i18n="heroName">Карманова Юлия </h2>
 <p class="subtitle" data-i18n="heroSubtitle">
   Создаю естественный и утончённый макияж
 </p>
+<a href="https://tlgg.ru/karmanova_yu" target="_blank" class="btn-cta" style="padding: 8px 16px; font-size: 14px; box-shadow: none;">Записаться в Telegram</a>
 
 </div>
     </div>
@@ -446,9 +472,12 @@
     <img class="hero-mobile-photo" src="bilder/IMG_5609.jpeg" alt="">
     
     <div class="hero-mobile-overlay">
-      <h1>Визажист - Стилист </h1>
+      <h1>Визажист - Стилист в Ростов-на-Дону и Донецк</h1>
+       
       <h2>Карманова Юлия </h2>
       <p>Создаю естественный и утончённый макияж</p>
+      <a href="https://tlgg.ru/karmanova_yu" target="_blank" class="btn-cta" style="padding: 8px 16px; font-size: 14px; box-shadow: none;">Записаться в Telegram</a>
+
 
       <!-- Mobile menu button -->
       <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
@@ -1037,20 +1066,25 @@ document.addEventListener('DOMContentLoaded', function() {
     if (lang === 'de') el.textContent = el.dataset.de;
   });
 
-  // Переключение текста в модалках
+  //   // Переключение текста в модалках (с защитой от ошибок)
   const modals = ['privacy', 'terms', 'impressum'];
+  const languages = ['ru', 'en', 'de'];
+
   modals.forEach(id => {
-    document.getElementById(`${id}-ru`).style.display = lang === 'ru' ? 'block' : 'none';
-    document.getElementById(`${id}-en`).style.display = lang === 'en' ? 'block' : 'none';
-    document.getElementById(`${id}-de`).style.display = lang === 'de' ? 'block' : 'none';
+    languages.forEach(langCode => {
+      const el = document.getElementById(`${id}-${langCode}`);
+      if (el) {
+        el.style.display = lang === langCode ? 'block' : 'none';
+      }
+    });
   });
 });
+
 
 
   </script>
 </body>
 </html>
-
 
 
 
